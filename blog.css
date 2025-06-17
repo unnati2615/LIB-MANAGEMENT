@@ -1,0 +1,109 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Navigation */
+nav {
+  background: #f8f8f8;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a66f2b;
+}
+
+/* Main Blog Container */
+.container {
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Blog Title Section */
+.section h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #a66f2b;
+  padding-bottom: 5px;
+  color: #a66f2b;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+/* Blog Articles */
+.blog-post {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.blog-post h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.blog-post p {
+  color: #444;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background: #5a3821;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .social a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .blog-post {
+    padding: 20px;
+  }
+}

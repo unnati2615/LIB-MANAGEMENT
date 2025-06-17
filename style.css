@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+}
+
+header {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+}
+
+nav {
+  background: #f8f8f8;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a66f2b;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.main {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #a66f2b;
+  padding-bottom: 5px;
+  color: #a66f2b;
+}
+
+.book-carousel {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.book-carousel img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.widget {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.widget img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.widget h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #a66f2b;
+}
+
+.widget p {
+  font-size: 14px;
+  color: #444;
+}
+
+footer {
+  background: #5a3821;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+}
+
+footer .social a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.browse-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

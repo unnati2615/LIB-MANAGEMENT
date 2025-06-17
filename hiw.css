@@ -1,0 +1,131 @@
+/* Reset and base */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Georgia', serif;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  flex-shrink: 0;
+}
+
+/* Navigation */
+nav {
+  background: #f8f8f8;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+  flex-shrink: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a66f2b;
+}
+
+/* Container - main content wrapper */
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* Main box */
+.main {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  width: 600px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Section heading */
+.section h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid #a66f2b;
+  padding-bottom: 5px;
+  color: #a66f2b;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+/* Paragraph and list */
+.main p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.main ol {
+  padding-left: 20px;
+  color: #444;
+  font-size: 1.1em;
+}
+
+.main ol li {
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.main ol li strong {
+  color: #a66f2b;
+}
+
+/* Footer */
+footer {
+  background: #5a3821;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  flex-shrink: 0;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 -3px 5px rgba(0,0,0,0.15);
+}
+
+/* Footer social icons */
+footer .social a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .main {
+    width: 100%;
+    padding: 20px;
+    margin: 0 10px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
